@@ -1,0 +1,152 @@
+#layanan::before {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0;
+  z-index: -1;
+  content: '';
+  height: 83rem;
+  background: linear-gradient(122.76deg, #F39475 25.61%, #E74A5F 77.32%);
+  mix-blend-mode: hard-light;
+}
+
+#background-image::before {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 0;
+  z-index: 0;
+  content: '';
+  height: 34rem;
+  background: #fff;
+  mix-blend-mode: hard-light;
+}
+
+.layanan {
+  position: relative;
+}
+
+/* .layanan-slider.mx-auto {
+  width: 60% !important;
+} */
+
+
+
+.layanan .logo-design{
+  transition: 0.3s;
+  padding: 22px;
+}
+
+.layanan .logo-design:hover {
+  transform: scale(1.1);
+}
+
+
+.layanan .logo-section-image {
+  padding: 10px;
+}
+
+
+.layanan .logo-section-text {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+
+
+.layanan .img-center{
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+.layanan .mx-auto {
+  width: 100%;
+}
+
+
+.layanan .brand-name {
+  padding: 10px 0;
+}
+
+.layanan .brand-name p{
+  margin-bottom: 0;
+}
+
+.layanan .layanan-img {
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 30vh;
+}
+
+.layanan .swiper-pagination .swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  background-color: #A0A0A0;
+  opacity: 1;
+}
+.layanan .swiper-pagination .swiper-pagination-bullet-active {
+  background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+}
+.layanan .swiper-slide {
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+
+
+
+@media (min-width: 576px) {
+  .layanan-slider.mx-auto {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .layanan .logo-design{
+    padding: 10px;
+  }
+}
+
+@media (min-width: 767px) {
+  .layanan .mx-auto {
+    width: 80%;
+  }
+
+  .layanan-slider.mx-auto {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .layanan .mx-auto {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1199px) {
+  
+  .layanan .swiper-slide-active {
+    opacity: 1;
+  }
+
+}
+@media (min-width: 1200px) {
+  .layanan .mx-auto {
+    width: 55%;
+  }
+
+  .layanan-slider.mx-auto {
+    width: 70% !important;
+  }
+
+  .layanan .swiper-slide-next {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

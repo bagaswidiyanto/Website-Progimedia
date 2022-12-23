@@ -1,0 +1,41 @@
+.contact-us {
+    position: relative;
+    padding: 100px 0;
+}
+
+.contact-us .contact-address-progi {
+    font-size: 14px;
+}
+
+/* .contact-us .col-padding {
+    padding-left: 0;
+} */
+
+.contact-us .icon-contact img {
+    width: 25px;
+    height: 25px;
+}
+
+.contact-us .contact-address {
+    color: #62646c;
+}
+
+.contact-us .contact-address h5{
+    text-transform: uppercase;
+}
+
+
+.help {
+    position: relative;
+    padding: 60px 0;
+}
+
+.help .form-group h5 {
+    margin-bottom: 2px;
+    color: #343434;
+}
+
+.help .form-group h5 img {
+    width: 25px;
+    margin-right: 5px;
+}

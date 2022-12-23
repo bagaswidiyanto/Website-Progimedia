@@ -1,0 +1,203 @@
+.packaging .section-text p {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.produk-packaging {
+    position: relative;
+    padding: 60px 0;
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+}
+
+.produk-packaging .bg-people {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 70%;
+}
+
+.produk-packaging .list-content .content {
+    position: relative;
+}
+
+.produk-packaging .list-content .content img {
+    position: absolute;
+    max-width: 4%;
+}
+
+.produk-packaging .list-content .content .text-cnt {
+    margin-left: 7vh;
+    color: #fff;
+}
+
+.produk-packaging .list-content .content .text-cnt h5 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.produk-packaging .list-content .content .text-cnt p {
+    font-size: 18px;
+}
+
+.slider-bottom {
+    position: relative;
+}
+
+.slider-bottom .bground {
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.slider-bottom .slider-bottom-container {
+    padding: 60px 0;
+}
+
+.slider-bottom .produk-bottom-slider {
+    height: 100%;
+}
+
+
+
+.slider-bottom .header-portfolio h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 7vh;
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+      background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+
+.slider-bottom .img-center {
+    background: #4A4A4A;
+box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding: 20px;
+height: 100%;
+}
+
+.slider-bottom .img-center img {
+    border-radius: 20px;
+}
+
+.slider-bottom .img-center .brand-name {
+    padding: 0 50px;
+}
+
+.slider-bottom .img-center .brand-name p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.slider-bottom .relative {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider-bottom .swiper-button-next, .slider-bottom .swiper-button-prev {
+    color: #4D4E50;
+    top: 40%;
+}
+
+.slider-bottom .swiper-pagination .swiper-pagination-bullet-active {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+}
+
+
+
+@media (max-width: 767px) {
+
+    .slider-bottom .swiper-button-next, .slider-bottom .swiper-button-prev {
+        display: none;
+    }
+
+}
+
+.call-me {
+    position: relative;
+}
+
+.call-me-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.call-me .bground {
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.call-me h2 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.call-me p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.call-me .box-col {
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+.call-me .box-col img{
+    position: absolute;
+    max-width: 13%;
+}
+
+.call-me .box-col p {
+    margin-left: 11vh;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) { 
+    .slider-bottom .img-center .brand-name {
+        padding: 0;
+    }
+
+    .produk-packaging .list-content .content img {
+        max-width: 8%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .call-me .box-col img {
+        max-width: 12%;
+    }
+
+    .call-me .box-col p {
+        margin-left: 5vh;
+        font-size: 14px;
+      }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .call-me .box-col p {
+        margin-left: 7vh;
+        font-size: 18px;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .call-me .box-col p {
+        margin-left: 7vh;
+        font-size: 20px;
+      }
+}

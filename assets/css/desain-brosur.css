@@ -1,0 +1,175 @@
+.portofolio-desain-brosur {
+    position: relative;
+}
+
+.portofolio-desain-brosur .header-portfolio h1 {
+    background: #E07F00;
+    margin-bottom: 0;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+
+
+.brosur {
+    position: relative;
+}
+
+.brosur .top-table-jasa {
+    padding-top: 70px;
+}
+
+.brosur .top-table-jasa .col-width {
+    width: 12%;
+}
+
+.brosur .top-table-jasa .col-jasa {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.brosur .top-table-jasa .col-border-rl {
+    border-right: 1px solid;
+    border-left:  1px solid;
+}
+
+.brosur .top-table-jasa .col-border-r {
+    border-right: 1px solid;
+}
+
+.brosur .top-table-jasa p  {
+    margin-bottom: 0;
+}
+
+.brosur .top-table-jasa .bdr {
+    border-bottom: 1px solid;
+}
+
+
+.brosur .col-jasa .info {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.brosur .top-table-jasa .header-bdr {
+    font-size: 14px;
+    height: 6vh;
+}
+
+.brosur .top-table-jasa .kosong {
+    padding: 10px 0;
+}
+
+.brosur .top-table-jasa .price {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.brosur .top-table-jasa .desain-side {
+    font-size: 14px;
+    height: 10vh;
+}
+
+.brosur .top-table-jasa .revision {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.brosur .top-table-jasa .duration {
+    font-size: 14px;
+    height: 10vh;
+}
+
+.brosur .top-table-jasa .master-files {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.brosur .top-table-jasa .file-export {
+    font-size: 14px;
+    height: 10vh;
+}
+
+
+.brosur .top-table-jasa .button {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.brosur .top-table-jasa .button .b-paket {
+    border-radius: 10px;
+    color: #FF383D;
+    font-weight: 600;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 2px solid #FF383D;
+}
+
+..brosur .top-table-jasa .button .b-paket:hover {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    color: #fff;
+    border: none;
+}
+
+
+
+@media (max-width: 991px) {
+    .brosur {
+        padding: 70px 0;
+    }
+
+    .brosur .top-table-jasa {
+        padding-top: 30px;
+    }
+
+    .brosur .top-table-jasa .button .b-paket {
+        padding: 8px 5px;
+        font-size: 12px;
+        border: 1px solid #FF383D;
+    }
+
+    .brosur .top-table-jasa .col-jasa p {
+        font-size: 12px;
+    }
+
+    .brosur .top-table-jasa p img {
+        max-width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .brosur .top-table-jasa .button .b-paket {
+        padding: 6px 4px;
+        font-size: 8px;
+        border: 1px solid #FF383D;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .brosur .top-table-jasa .button .b-paket {
+        padding: 6px 8px;
+        font-size: 9px;
+        border: 1px solid #FF383D;
+    }
+}
+
+@media (max-width: 767px) { 
+    .brosur .top-table-jasa .col-width {
+        width: 13%;
+    }
+
+    .brosur .top-table-jasa .col-jasa p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}

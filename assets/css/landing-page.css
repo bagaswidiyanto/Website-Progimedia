@@ -1,0 +1,34 @@
+.landing-page {
+    position: relative;
+    padding: 100px 0 170px 0;
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+}
+
+.landing-page .bg-people {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 70%;
+}
+
+.landing-page .list-content .content {
+    position: relative;
+}
+
+.landing-page .list-content .content img {
+    position: absolute;
+    max-width: 4%;
+}
+
+.landing-page .list-content .content .text-cnt {
+    margin-left: 7vh;
+    color: #fff;
+}
+
+.landing-page .list-content .content .text-cnt h5 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.landing-page .list-content .content .text-cnt p {
+    font-size: 18px;
+}

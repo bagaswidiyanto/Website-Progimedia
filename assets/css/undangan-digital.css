@@ -1,0 +1,58 @@
+.undangan-digital {
+    padding-bottom: 20px;
+}
+
+
+.undangan-digital .people-side {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 37%;
+}
+
+
+.undangan-digital .section-text p {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.background-color-undangan {
+    background: linear-gradient(78.07deg, #FF383D 8.72%, #FF6B39 43.55%, rgba(255, 107, 57, 0) 91.28%);
+    padding-bottom: 20px;
+}
+
+.background-color-undangan .list-content .content {
+    position: relative;
+}
+
+.background-color-undangan .list-content .content img {
+    position: absolute;
+    width: 4%;
+    top: 20%;
+}
+
+.background-color-undangan .list-content .content p {
+    margin-left: 7vh;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 37px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) { 
+    .background-color-undangan .list-content .content p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .undangan-digital .section-text p {
+        font-size: 18px;
+    }
+
+    .background-color-undangan .list-content .content p {
+        font-size: 12px;
+        margin-left: 3vh;
+        margin-top: 15px;
+    }
+}

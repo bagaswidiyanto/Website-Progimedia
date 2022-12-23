@@ -1,0 +1,205 @@
+.library-design {
+    position: relative;
+    background: radial-gradient(58.17% 162.88% at 45.02% 32.37%, #FFFFFF 25%, #FAFCFE 42%, #EAF3FB 64%, #D0E4F5 87%, #BFDAF2 100%);
+}
+
+.library-design .section-text .desk p {
+    text-align: center;
+}
+
+
+.library #library-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    background: white;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+.library #library-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 0px 3px 0px;
+    /* font-size: 15px; */
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 20px 8px 4px;
+}
+
+.library #library-flters li:hover,
+.library #library-flters li.filter-active {
+    border-bottom: 3px solid #FF383D;
+    border-radius: 2px;
+}
+
+.library #library-flters li:last-child {
+    margin-right: 0;
+}
+
+.library .library-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: linear-gradient(162.75deg, #F8FBFC 33.74%, #E5E5E5 71.71%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.library .library-wrap::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+
+.library .library-wrap img {
+    transition: 1s;
+    max-height: 30vh;
+    width: 100%;
+}
+
+.library .library-wrap .library-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.library .library-wrap .library-info::before {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid rgba(1, 41, 112, 0.2);
+    border-left: 3px solid rgba(1, 41, 112, 0.2);
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.library .library-wrap .library-info::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid rgba(1, 41, 112, 0.2);
+    border-right: 3px solid rgba(1, 41, 112, 0.2);
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.library .library-wrap .library-info h4 {
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+}
+
+.library .library-wrap .library-info p {
+    color: #012970;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.library .library-wrap .library-links {
+    text-align: center;
+    z-index: 4;
+}
+
+.library .library-wrap .library-links a {
+    color: #fff;
+    background: #0D1C8E;
+    margin: 10px 2px;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+.library .library-wrap .library-links a i {
+    font-size: 24px;
+    line-height: 0;
+}
+
+.library .library-wrap .library-links a:hover {
+    background: #5969f3;
+}
+
+.library .library-wrap:hover img {
+    transform: scale(1.1);
+}
+
+.library .library-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+.library .library-wrap:hover .library-info {
+    opacity: 1;
+}
+
+.library .library-wrap:hover .library-info::before {
+    top: 15px;
+    left: 15px;
+}
+
+.library .library-wrap:hover .library-info::after {
+    bottom: 15px;
+    right: 15px;
+}
+
+.library .library-wrap .library-title {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    transition: all ease-in-out 0.3s;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.library .library-wrap:hover .library-title {
+    display: none;
+}
+
+.glightbox-clean .gprev {
+    display: none;
+}
+
+.glightbox-clean .gnext {
+    display: none;
+}
+
+

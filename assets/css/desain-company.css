@@ -1,0 +1,188 @@
+.cp-function {
+    position: relative;
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    color: #fff;
+    z-index: 0;
+}
+
+.cp-function .img-people {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cp-function .img-bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: -3;
+    height: 55%;
+    width: 100%;
+}
+
+.cp-function .cp-container {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 105vh;
+}
+
+.cp-function .cp-container .cp-row{
+    margin-top: 10vh;
+}
+
+.cp-function .cp-container .cp-row .box-content {
+    padding: 0 17vh;
+}
+
+.cp-function .cp-container .cp-row .content-cp{
+    background: radial-gradient(58.17% 162.88% at 45.02% 32.37%, #FFFFFF 25%, #FAFCFE 42%, #EAF3FB 64%, #D0E4F5 87%, #BFDAF2 100%);
+    box-shadow: 1.02353px 3.07059px 5.11765px rgba(0, 0, 0, 0.25);
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cp-function .content-cp .img .speaker {
+    max-width: 32%;
+}
+
+.cp-function .content-cp p{
+    color: #000;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.table-company-profile {
+    position: relative;
+    padding: 60px 0;
+}
+
+.table-company-profile .top-table-jasa .col-jasa {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.table-company-profile .top-table-jasa .col-border-rl {
+    border-right: 1px solid;
+    border-left: 1px solid;
+  }
+
+.table-company-profile .top-table-jasa .header-bdr {
+    font-size: 14px;
+    height: 6vh;
+}
+
+.table-company-profile .top-table-jasa .kosong {
+    padding: 10px 0;
+}
+
+
+.table-company-profile .top-table-jasa  .bdr {
+    border-bottom: 1px solid;
+}
+
+.table-company-profile .top-table-jasa p {
+    margin-bottom: 0;
+    line-height: 15px;
+}
+
+
+.table-company-profile .top-table-jasa .price {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+
+}
+.table-company-profile .top-table-jasa .price a {
+    color: #FF383D;
+}
+.table-company-profile .top-table-jasa .minim {
+    font-size: 14px;
+    height: 10vh;
+}
+.table-company-profile .top-table-jasa .revision {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+.table-company-profile .top-table-jasa .duration {
+    font-size: 14px;
+    height: 10vh;
+}
+.table-company-profile .top-table-jasa .master-files {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+.table-company-profile .top-table-jasa .export {
+    font-size: 14px;
+    height: 10vh;
+}
+.table-company-profile .top-table-jasa .materi {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+.table-company-profile .top-table-jasa .img-editing {
+    font-size: 14px;
+    height: 10vh;
+}
+
+.table-company-profile .top-table-jasa .cls {
+    max-width: 60%;
+}
+
+.table-company-profile .top-table-jasa .button {
+    font-size: 14px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.table-company-profile .top-table-jasa .button .b-paket {
+    border-radius: 10px;
+    color: #FF383D;
+    font-weight: 600;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 2px solid #FF383D;
+}
+
+.table-company-profile .top-table-jasa .button .b-paket:hover {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    color: #fff;
+    border: none;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .cp-function .cp-container {
+        padding-bottom: 73vh;
+    }
+
+    .section-content-color h3 {
+        font-size: 45px;
+    }
+}
+
+
+@media (max-width: 767px) { 
+    .cp-function .cp-container {
+        padding-bottom: 40vh;
+    }
+
+    .section-content-color h3 {
+        font-size: 28px;
+    }
+
+    .cp-function .img-people {
+        max-width: 94%;
+    }
+
+    .table-company-profile  .pdg.pdg-s{
+        padding: 0;
+    }
+}

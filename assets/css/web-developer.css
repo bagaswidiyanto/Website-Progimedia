@@ -1,0 +1,279 @@
+/* .box2-content .bground {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 155vh;
+    z-index: -1;
+} */
+
+.jasa-web {
+    position: relative;
+    padding: 100px 0;
+}
+
+.jasa-web .col-web {
+    align-self: center;
+}
+
+.jasa-web .b_konsultasi a {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.portfolio-web {
+    padding-bottom: 70px;
+}
+
+
+
+
+
+.web-developer {
+    position: relative;
+    padding: 0;
+    background: linear-gradient(93.58deg, #FF383D12 5.16%, #FF6B3936 94.19%);
+
+}
+
+.web-developer .backgrd {
+    position: absolute;
+}
+
+.web-developer .web-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.web-developer .advantages .img-polygon {
+    position: absolute;
+}
+
+.web-developer .section-header .web {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.web-developer .row-content-top .section-img {
+    text-align-last: right;
+}
+
+
+
+s.row-content-top {
+    padding: 70px 0;
+}
+
+
+.what-do-you-get {
+    position: relative;
+    padding: 60px 0 0 0;
+}
+
+
+
+.what-do-you-get h2 {
+    margin-bottom: 3vh;
+}
+
+.what-do-you-get .logo-design .logo-section-image {
+    padding: 0 35px 15px 35px;
+    transition: 0.3s;
+}
+.what-do-you-get .logo-design .logo-section-image:hover {
+    transform: scale(1.1);
+}
+
+
+.service-price {
+    position: relative;
+}
+
+.service-price .top-table-jasa {
+    padding-top: 70px;
+}
+
+.service-price .col-jasa {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.service-price .col-border-rl {
+    border-right: 1px solid;
+    border-left:  1px solid;
+}
+
+.service-price .col-border-r {
+    border-right: 1px solid;
+}
+
+.service-price .top-table-jasa p  {
+    margin-bottom: 0;
+}
+
+.service-price  .top-table-jasa .bdr {
+    border-bottom: 1px solid;
+}
+
+.service-price  .top-table-jasa .free {
+    background: #DAFFF9;
+    border-radius: 20px;
+    color: #28A745;
+    padding: 7px 20px;
+}
+
+.service-price  .top-table-jasa .info {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.service-price .top-table-jasa .header-bdr {
+    font-size: 16px;
+    height: 6vh;
+}
+
+.service-price .top-table-jasa .kosong {
+    padding: 10px 0;
+}
+
+.service-price .top-table-jasa .price {
+    font-size: 16px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.service-price .top-table-jasa .page {
+    font-size: 16px;
+    height: 10vh;
+}
+
+.service-price .top-table-jasa .domain {
+    font-size: 16px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.service-price .top-table-jasa .hosting {
+    font-size: 16px;
+    height: 10vh;
+}
+
+.service-price .top-table-jasa .ssl {
+    font-size: 16px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.service-price .top-table-jasa .setup-free {
+    font-size: 16px;
+    height: 10vh;
+}
+
+.service-price .top-table-jasa .work-duration {
+    font-size: 16px;
+    height: 10vh;
+    background: linear-gradient(0deg, #E5E5E5 33.73%,#F8FBFC 71.71%);
+}
+
+.service-price .top-table-jasa .button {
+    font-size: 16px;
+    height: 10vh;
+}
+
+.service-price .top-table-jasa .button .b-paket {
+    border-radius: 10px;
+    color: #FF383D;
+    font-weight: 600;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 2px solid #FF383D;
+}
+
+.service-price .top-table-jasa .button .b-paket:hover {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    color: #fff;
+    border: none;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .box2-content .bground {
+        height: 100%;
+    }
+
+    .what-do-you-get {
+        padding: 60px 0 0 0;
+    }
+
+    .service-price {
+        padding: 0;
+    }
+
+    .service-price .top-table-jasa {
+        padding-top: 30px;
+    }
+
+    .service-price .button .b-paket {
+        padding: 8px 15px;
+    }
+
+    .service-price .top-table-jasa p {
+        font-size: 12px;
+    }
+
+    .service-price .top-table-jasa p img {
+        max-width: 73%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .service-price .top-table-jasa .button .b-paket {
+        padding: 8px 7px;
+        font-size: 10px;
+        border: 1px solid #FF383D;
+      }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .service-price .top-table-jasa .button .b-paket {
+        padding: 8px 8px;
+        font-size: 12px;
+      }
+}
+
+@media (max-width: 767px) { 
+    .what-do-you-get .logo-design .logo-section-image {
+        padding: 0 10px 15px 10px;
+    }
+
+    .service-price .top-table-jasa .col-jasa p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    
+
+    .service-price .hosting .pdg img {
+        width: 50%;
+    }
+
+    .service-price .ssl .pdg img {
+        width: 50%;
+    }
+}

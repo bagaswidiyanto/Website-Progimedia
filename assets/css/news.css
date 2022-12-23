@@ -1,0 +1,126 @@
+.post-news {
+    position: relative;
+    padding: 160px 0 70px 0;
+}
+
+.post-news .box-news {
+    background: linear-gradient(162.75deg, #F8FBFC 33.74%, #E5E5E5 71.71%);
+    box-shadow: 0px 3.41363px 34.1363px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    border-radius: 20px;
+    height: 100%;
+}
+.post-news .box-news:hover {
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+}
+
+.post-news .box-news .box-img img {
+    border-radius: 10px;
+    height: 31vh;
+    width: 100%;
+}
+
+.post-news .box-news .box-text h5 {
+    color: #000;
+}
+.post-news .box-news:hover .box-text h5 {
+    color: #fff;
+}
+
+.post-news .box-news .box-text span {
+    font-size: 12px;
+    color: #656565;
+}
+
+.post-news .box-news:hover .box-text span {
+    color: #fff;
+}
+
+.post-news .box-news .box-text i {
+    margin-right: 10px;
+}
+
+.post-news .box-news .box-text p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #898989;
+}
+
+.post-news .box-news:hover .box-text p {
+    color: #fff;
+}
+
+/* Pagination */
+.blog-pagination {
+    margin-top: 80px;
+}
+
+.blog-pagination .pagination .page-pagination.active a{
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    border-radius: 50%;
+    padding: 2px 10px;
+    margin-left: 10px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.blog-pagination .pagination .page-pagination a{
+    background: #fff;
+    border-radius: 50%;
+    padding: 2px 10px;
+    margin-left: 10px;
+    border: 1px solid #FF383D;
+    font-size: 18px;
+    color: #FF383D;
+    font-weight: 600;
+}
+
+.blog-pagination .pagination .page-pagination a:hover{
+    background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+    border: none;
+    color: #fff;
+
+}
+
+
+/* Single Post */
+
+.single-post {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: #fff;
+}
+
+.single-post .entry-single .entry-title h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 8vh;
+}
+
+.single-post .entry-single .entry-img img {
+    border-radius: 20px;
+}
+
+.single-post .entry-single .entry-meta {
+    margin-top: 5vh;
+}
+.single-post .entry-single .entry-meta span{
+    font-size: 14px;
+color: #4d4d4d;
+}
+
+.single-post .entry-single .entry-meta span i{
+    margin-right: 10px;
+}
+
+.single-post .entry-single .entry-content {
+    margin-top: 5vh;
+}
+
+.single-post .back {
+    margin-top: 7vh;
+}
+

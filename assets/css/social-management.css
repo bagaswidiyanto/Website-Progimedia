@@ -1,0 +1,420 @@
+.box2-content {
+  position: relative;
+}
+
+.box2-content .bground {
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  margin-top: -7vh;
+  height: 110%;
+  width: 100%;
+}
+
+
+
+.manfaat {
+  position: relative;
+  padding: 100px 0;
+}
+
+.manfaat .box-first-yellow {
+  background: linear-gradient(315deg, #DF7527 -53.1%, #EAB54B 69.37%);
+  border-radius: 25px;
+  padding: 20px;
+}
+.manfaat .box-first-green {
+  background: linear-gradient(331.28deg, #52C42B 9.22%, #1F9120 88.7%);
+  border-radius: 25px;
+  padding: 20px;
+}
+.manfaat .box-first-aqua {
+  background: linear-gradient(135deg, #33CCFF 7.68%, #337FFF 92.32%);
+  border-radius: 25px;
+  padding: 20px;
+}
+.manfaat .box-first-blue {
+  background: linear-gradient(225.06deg, #4676ED 7.76%, #436DE4 23.82%, #3C55CD 49.19%, #302EA8 81.32%, #2B1E99 92.31%);
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.manfaat .box-second {
+  background: linear-gradient(280.01deg, #E9E7E7 2.56%, #FFFFFF 97.43%);
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.manfaat .box-second .box-img {
+  box-shadow: 5.438px 5.438px 9.06334px rgba(0, 0, 0, 0.25);
+  border-radius: 34px;
+  padding: 25px;
+}
+
+.manfaat .box-first-yellow .box-second .box-img {
+  background: linear-gradient(315deg, #DF7527 -53.1%, #EAB54B 69.37%);
+}
+.manfaat .box-first-green .box-second .box-img {
+  background: linear-gradient(331.28deg, #52C42B 9.22%, #1F9120 88.7%);
+}
+.manfaat .box-first-aqua .box-second .box-img {
+  background: linear-gradient(135deg, #33CCFF 7.68%, #337FFF 92.32%);
+}
+.manfaat .box-first-blue .box-second .box-img {
+  background: linear-gradient(225.06deg, #4676ED 7.76%, #436DE4 23.82%, #3C55CD 49.19%, #302EA8 81.32%, #2B1E99 92.31%);
+}
+
+
+.manfaat .box-second .text-content h4 {
+  font-size: 23px;
+  font-weight: 800;
+}
+.manfaat .box-second .text-content p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+
+
+.social-slider-phone {
+  position: relative;
+}
+
+.social-slider-phone .social-phone-container {
+  padding: 70px 0 200px 0;
+}
+
+.social-slider-phone .header-portfolio {
+  margin-bottom: 100px;
+}
+
+
+.beauty {
+  margin-top: 20vh;
+}
+/* slider food */
+.slider-food {
+  position: relative;
+}
+
+.slider-food .food {
+  padding-top: 85px;
+}
+
+
+
+.slider-food .bkground{
+  position: absolute;
+  max-width: 25.7%;
+}
+
+.slider-food .backgrnd-text-1 {
+  background: linear-gradient(92.54deg, #FF383D 2.15%, #FF573B 59.92%, rgba(255, 107, 57, 0) 85.7%);
+  padding: 10px;
+}
+.slider-food .backgrnd-text-1 p{
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  /* margin-left: 48vh; */
+}
+
+.slider-food .sos {
+  position: relative;
+  width: 99%;
+}
+
+.slider-food .food .sos .swiper-slide-active {
+  margin-right: 4px;
+}
+
+.social-slider-phone .swiper-button-next, .social-slider-phone .swiper-button-prev {
+  top: 65%;
+}
+.social-slider-phone .swiper-button-prev {
+  left: -50px;
+}
+.social-slider-phone .swiper-button-next  {
+  right: -50px;
+}
+
+/* End slider food */
+
+/* Slider Automotive */
+.slider-automotive {
+  position: relative;
+  margin-top: 20vh;
+}
+
+.slider-automotive .automotive {
+  padding-top: 75px;
+}
+
+.slider-automotive .bkground{
+  position: absolute;
+  max-width: 25.2%;
+  right: 0;
+}
+
+.slider-automotive .backgrnd-text-1 {
+  background: linear-gradient(272.54deg, #FF383D 2.1%, #FF573B 60.6%, rgba(255, 107, 57, 0) 85.85%);
+  padding: 10px;
+}
+.slider-automotive .backgrnd-text-1 p{
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  float: right;
+}
+
+.slider-automotive .sos {
+  position: relative;
+  width: 99%;
+}
+
+.slider-automotive .automotive .sos .swiper-slide-duplicate-prev {
+  margin-left: 5px;
+}
+
+/* End Slider Automotive */
+@media only screen and (max-width: 600px) {
+  
+  .social-slider-phone {
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
+  /*  */
+
+  .slider-food .bkground {
+    max-width: 34%;
+  }
+
+  .slider-food .food {
+    padding-top: 30px;
+  }
+
+  .slider-food .backgrnd-text-1 p {
+    font-size: 10px;
+    /* margin-left: 23vh; */
+  }
+
+  .slider-food .food .sos .swiper-slide-active {
+    margin-right: 2px;
+  }
+
+  /* End Food */
+
+  /* automotive */
+  .slider-automotive .automotive {
+    padding-top: 27px;
+  }
+  .slider-automotive .bkground {
+    max-width: 33.4%;
+  }
+  .slider-automotive .automotive .sos .swiper-slide-duplicate-prev {
+    margin-left: 3px;
+  }
+  .slider-automotive .backgrnd-text-1 p {
+    font-size: 10px;
+  }
+  /* End automotive */
+
+  .social-slider-phone .swiper-button-prev {
+    display: none;
+  }
+  .social-slider-phone .swiper-button-next  {
+    display: none;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .slider-food .food {
+    padding-top: 22px;
+  }
+
+  .slider-food .backgrnd-text-1 p {
+    font-size: 14px;
+    /* margin-left: 22vh; */
+  }
+  
+  .slider-food .food .sos .swiper-slide-active {
+    margin-right: 2px;
+  }
+
+  .slider-automotive .automotive {
+    padding-top: 20px;
+  }
+
+  .slider-automotive .bkground {
+    max-width: 25.2%;
+  }
+
+  .slider-automotive .backgrnd-text-1 p {
+    font-size: 14px;
+    /* margin-left: 22vh; */
+  }
+
+  .slider-automotive .automotive .sos .swiper-slide-duplicate-prev {
+    margin-left: 3px;
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-food .food {
+    padding-top: 40px;
+  }
+
+  .slider-food .backgrnd-text-1 p {
+    font-size: 18px;
+  }
+
+
+  .slider-automotive .automotive {
+    padding-top: 35px;
+  }
+
+  .slider-automotive .backgrnd-text-1 p {
+    font-size: 18px;
+  }
+
+  
+
+
+  .social-slider-phone .swiper-button-prev {
+    left: -35px;
+  }
+  .social-slider-phone .swiper-button-next {
+    right: -35px;
+  }
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .slider-automotive .backgrnd-text-1 p {
+      font-size: 18px;
+    }
+
+    .slider-automotive .backgrnd-text-1 p {
+      font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .slider-food .food {
+    padding-top: 60px;
+  }
+
+  .slider-automotive .automotive {
+    padding-top: 55px;
+  }
+}
+
+
+
+
+
+
+.package-choice {
+  position: relative;
+  padding: 0;
+}
+
+
+.package-choice .bground {
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.package-choice .container-package {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.section-text-middle h1 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.section-text-middle h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+  background: linear-gradient(93.58deg, #FF383D 5.16%, #FF6B39 94.19%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.package-choice .tab img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+  max-width: 100%;
+}
+
+.package-choice .tab img.active {
+  filter: none;
+  opacity: 1;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+  .box2-content .bground {
+      height: 100%;
+  }
+
+  .manfaat .box-second .box-img {
+      border-radius: 10px;
+      padding: 10px;
+  }
+
+
+  .section-text-middle h1 {
+  font-size: 38px;
+  }
+
+  .section-text-middle h2 {
+      font-size: 34px;
+  }
+}
+
+@media (max-width: 767px) { 
+  .manfaat .box-second .box-img {
+      border-radius: 20px;
+      padding: 25px;
+  }
+
+  .section-text-middle h1 {
+      font-size: 26px;
+      line-height: 26px;
+  }
+
+  .section-text-middle h2 {
+      font-size: 20px;
+  }
+}

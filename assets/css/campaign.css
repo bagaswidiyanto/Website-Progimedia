@@ -1,0 +1,50 @@
+.services-area-home .img-back-campaign {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.services-area-home .about-us-home .world-back-campaign {
+    position: absolute;
+    right: 0;
+    top: 9%;
+    opacity: 0.3;
+}
+.services-area-home .about-us-home .title-branding h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.platform-iklan {
+    position: relative;
+    padding: 50px 0 50px 0;
+}
+
+.platform-iklan .section-img-social {
+    margin-top: 30px;
+}
+
+
+.bnefits {
+    position: relative;
+    padding: 50px 0 120px 0;
+    /* background: linear-gradient(122.76deg, #FFE5C3 25.61%, #E74A5F 77.32%); */
+    background: #fff;
+}
+
+.bnefits .bnefits-img {
+    margin-top: 30px
+}
+
+.bnefits .bnefits-text {
+    margin-top: 30px;
+    color: #000;
+}
+
+.bnefits .bnefits-text p {
+    font-size: 22px;
+    font-weight: 700;
+}
