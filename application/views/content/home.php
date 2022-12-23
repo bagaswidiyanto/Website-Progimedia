@@ -7,7 +7,7 @@ $waLink = "https://api.whatsapp.com/send?phone=62$apiWa&text=Hallo%20Sahabat%20$
 ?>
 
 <!-- ? services-area -->
-<div class="services-area-home" id="services-area-home 123">
+<div class="services-area-home" id="services-area-home">
     <img src="<?= base_url(); ?>assets/images/about/about-home.png" alt="" class="img-progi-person-home">
     <div class="container service-area-container">
         <div class="row justify-content-sm-center" data-aos="fade-up" data-aos-duration="2000">
